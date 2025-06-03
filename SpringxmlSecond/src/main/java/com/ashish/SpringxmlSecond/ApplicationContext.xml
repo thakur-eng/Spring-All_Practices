@@ -1,0 +1,20 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+        
+        <bean  id ="mypg" class ="com.ashish.SpringxmlSecond.GokulnandaPg">
+        
+        <property name="pgname" value="GokulNandaOg"/>
+        <property name="honername" value="China"/>
+        <property name="totalRoom" value="32"/>
+        <property name="foodItem" value="MixSouth_North"/>
+        <property name="breakfast" value="Phoha"/>
+        <property name="lunch" value="Rice_Rasam"/>
+        <property name="deenar" value="Roti_MixVegitable"/>
+        <property name="pgAdd" value="BTM Layout2"/>
+        <property name="pgRent" value="7500/-"/>
+        </bean>
+        
+</beans>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+
+
+        <bean id="mystudent" class ="com.ashish.SpringxmlFirst.Student">
+        <property name="studentName" value="RamChandra"/>
+        <property name="schoolName" value="Gurukul"/>
+        <property name="studentRoolNum" value="1223"/>
+        <property name="studentFatherName" value="Dashrath"/>
+        <property name="studentFavSub" value="Sanskrit"/>
+        </bean>
+        
+        
+        
+        
+</beans>
+        
