@@ -5,7 +5,7 @@ spring:
   datasource:
     url: jdbc:mysql://localhost:3306/productdb_dev
     username: root
-    password: Ashish@12345
+    password: Ashish@123
     driver-class-name: com.mysql.cj.jdbc.Driver
 
   jpa:
@@ -43,3 +43,4 @@ management:
 logging:
   pattern:
     console: "%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %5p [${spring.application.name},%X{traceId},%X{spanId}] %logger{36} - %msg%n"
+ 
