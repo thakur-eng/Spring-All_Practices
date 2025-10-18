@@ -2,7 +2,7 @@ spring:
   datasource:
     url: jdbc:mysql://localhost:3306/paymentdb_dev
     username: root
-    password: Asish@123
+    password: Ashish@123
     driver-class-name: com.mysql.cj.jdbc.Driver
 
   jpa:
