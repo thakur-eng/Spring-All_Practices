@@ -12,4 +12,4 @@ spring:
     database-platform: org.hibernate.dialect.MySQL8Dialect
 
 server:
-  port: 8081                 # change per service (e.g., product=8081, order=8082)
+  port: 8084               # change per service (e.g., product=8081, order=8082)
